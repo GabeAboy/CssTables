@@ -1,0 +1,96 @@
+
+tr{height: 25px;
+  background-color: lightseagreen;
+	}
+body#table{background-color: #72AECC;
+		   padding-top: 30px;
+		   padding-bottom: 30px;
+        }
+table{margin-left: auto;
+	  margin-right: auto;
+	  border-collapse: collapse;
+	  width:70%;
+
+	  }
+
+
+
+table,td ,  th{
+    border:2px solid blue;
+}
+
+th{height:30px;}
+
+td{text-align: center;}
+a{text-decoration: none;}
+
+
+
+
+
+
+a{text-transform: uppercase;
+  float:left;
+  color: black;
+  letter-spacing: 2px;}
+
+caption{
+	background-color: #1AD7F0;
+        
+        color: blueviolet;
+        
+}
+
+
+
+body#table{background-image: url("pat.jpg");}
+
+
+
+tbody{background-color: darkcyan;
+  opacity: 0.8;
+
+}
+
+
+
+
+
+
+table {
+  overflow: hidden;
+}
+
+td, th {
+  padding: 10px;
+  position: relative;
+  outline: 0;
+}
+
+body tbody tr:hover {
+  background-color: #1AD7F0;
+}
+
+td:hover::after,
+thead th:not(:empty):hover::after,
+td:focus::after,
+thead th:not(:empty):focus::after { 
+  content: '';  
+  height: 10000px;
+  left: 0;
+  position: absolute;  
+  top: -5000px;
+  width: 100%;
+  z-index: -1;
+}
+
+td:hover::after,
+th:hover::after {
+  background-color: #1AD7F0;
+}
+
+td:hover{background-color: grey;
+		 color: #FFFF00;}
+
+
+

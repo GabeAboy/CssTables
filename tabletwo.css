@@ -1,0 +1,29 @@
+table{margin-left: auto;
+	  margin-right: auto;
+	  border-collapse: collapse;
+	  width:80%;
+	  }
+tr:nth-child(odd){background-color: grey;}
+tr:nth-child(even){background-color: lightseagreen;}
+
+
+table,td ,  th{
+    border:2px solid blue;
+}
+a{text-decoration: none;
+
+  color: black;}
+
+tr:hover{background-color: pink;}
+
+td{text-align: center;}
+
+tr{height: 35px;
+
+	}
+
+body#table{background-color: pink;
+			}
+thead{text-transform: uppercase;
+		font-family: Impact, Charcoal, sans-serif;
+		letter-spacing: 2px;}
